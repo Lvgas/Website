@@ -121,7 +121,7 @@ nav{
 }
 
 .wrapper{
-    max-width: 900px;
+    max-width: 1100px;
     margin: 8rem auto;
     margin-top: 4rem;
     margin-bottom: 4rem;
@@ -145,14 +145,16 @@ button{
     font-size: 15px;
     cursor: pointer;
 }
-    
+
+
 .btn:hover{
     color: #333;
     background-color: #f0f0f0;
     border: 2px solid #333;
 }
 
-footer {
+
+footer{
     padding: 1rem;
     text-align: center;
     background-color: #1D3557;
@@ -165,7 +167,32 @@ footer {
     color: #555;
 }
 
-footer a {
+.box{
+    max-width: 1100px;
+    margin: 8rem auto;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1)
+}
+
+li{
+    margin-left: 1.1rem;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+.box h2{
+    color: #000;
+}
+.box p{
+    color: #000;
+}
+
+footer a{
     color: #555;
     text-decoration: none; 
 }
