@@ -31,7 +31,7 @@ h1,h2{
     margin-bottom: 1rem;
 }
 
-_h2{
+h3{
     color: #333;
 }
 
@@ -40,6 +40,15 @@ p,li{
     line-height: 1.6;
     color: #555;
 }   
+
+blockquote{
+    margin: 30px 0;
+    padding: 15px 25px;
+    color:#000;
+    background: #eef5fa;
+    border-left: 5px solid #00557a;
+    font-style: italic;
+}
 
 nav{
     background-color: #dcdcdc;
@@ -153,6 +162,52 @@ button{
     border: 2px solid #333;
 }
 
+.column{
+    float: left;
+    width: 375px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* overflow: hidden; */
+    border: 2px solid;
+    border-radius: 8px;
+    cursor:pointer;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-color: powderblue;
+    color: black;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+
+.row p{
+    color: #f0f0f0;
+}
+
+#c1{
+    padding: 16px;
+}
+
+#c2{
+    padding: 16px;;
+}
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row :active{
+    color: aqua;
+}
 
 footer{
     padding: 1rem;
